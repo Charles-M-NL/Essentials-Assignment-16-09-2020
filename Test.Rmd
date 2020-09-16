@@ -1,6 +1,11 @@
 ---
 title: "Essentials assignment Charles Meijer"
-output: html_notebook
+output: 
+  github_document:
+    toc: true
+    toc_depth: 3
+editor_options:
+  chunk_output_type: inline
 ---
 
 This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
