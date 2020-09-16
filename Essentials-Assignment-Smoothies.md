@@ -20,7 +20,7 @@ or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*.
 ``` r
 mcdonalds = read.csv("menu.csv")
 
-head(mcdonalds[1:4], 5)
+head(mcdonalds[1:4], 5) # first five rows, first 4 columns
 ```
 
     ##    Category                             Item   Serving.Size Calories
@@ -29,6 +29,8 @@ head(mcdonalds[1:4], 5)
     ## 3 Breakfast                 Sausage McMuffin 3.9 oz (111 g)      370
     ## 4 Breakfast        Sausage McMuffin with Egg 5.7 oz (161 g)      450
     ## 5 Breakfast Sausage McMuffin with Egg Whites 5.7 oz (161 g)      400
+
+There are a lot more columns, but I cut them off for readability’s sake.
 
 The data consists of a number of features of a variety of McDonalds
 products. I got this data during the “Data science and biology” bachelor
@@ -44,9 +46,9 @@ Tableau version.
 
 ## Figures
 
-![Bar chart suikergehalte smoothies python](Figuur%20smoothies.png)
-*Python figure of sugar in smoothies and shakes* ![Bar chart
-tableau](Smoothies.png) *Tableau version*
+![Bar chart sugar content McDonalds smoothies
+python](Figuur%20smoothies.png) *Python figure of sugar in smoothies and
+shakes* ![Bar chart tableau](Smoothies.png) *Tableau version*
 
 It seems like tableau is way easier because picking the right parts of
 the data is quite intuitive. However, I did have some issues with the
@@ -55,7 +57,7 @@ as I could in python. This kinda limited the amount of colors to choose
 from.
 
 I tried to find how to add the image description underneath the image in
-small letters
+small letters.
 
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or
 by pressing *Ctrl+Alt+I*.
